@@ -73,7 +73,7 @@ curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/categories/<categor
 
 Example Result:
 ```bash
-  {
+  [{
         "category_name": "ANALOG_MULTIMETERS",
         "display_name": "Analog Multimeters",
         "description": null,
@@ -86,6 +86,6 @@ Example Result:
                 "null": null
             }
         }
-    }%
+    }]%
 ```
 
