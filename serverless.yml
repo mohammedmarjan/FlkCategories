@@ -1,0 +1,16 @@
+service: flkCategories
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  get:
+    handler: index.get
+    events:
+      - http:
+          path: categories/{category}
+          method: get
+          cors: true
+plugins:
+  - serverless-offline
