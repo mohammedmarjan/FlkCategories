@@ -15,4 +15,10 @@ module.exports.get = (event, context, callback) => {
   callback(null, response);
 };
 
-module.exports.list = (event, context, callback) => {};
+module.exports.list = (event, context, callback) => {
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(data),
+      };
+      callback(null, response);
+};

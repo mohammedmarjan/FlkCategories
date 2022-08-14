@@ -12,5 +12,12 @@ functions:
           path: categories/{category}
           method: get
           cors: true
+  list:
+    handler: index.list
+    events:
+      - http:
+          path: categories
+          method: get
+          cors: true
 plugins:
   - serverless-offline
