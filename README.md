@@ -62,7 +62,7 @@ Example output:
                 "null": null
             }
         }
-    },]%
+    }]
 ```
 
 ### Get one Category
@@ -86,6 +86,6 @@ Example Result:
                 "null": null
             }
         }
-    }]%
+    }]
 ```
 
